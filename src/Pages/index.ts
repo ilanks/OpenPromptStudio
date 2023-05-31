@@ -9,8 +9,7 @@ export function getRoutes() {
             redirect: "/",
         },
         {
-            path: "/",
-            name: "Index",
+            path: "/apps/ops/",
             component: vIndex,
         },
     ]
