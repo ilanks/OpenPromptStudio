@@ -10,7 +10,7 @@ dotenv.config()
 
 // https://vitejs.dev/config/
 let config = {
-    root: "./web",
+    root: "/web",
     base: "/apps/ops/",
     server: {
         port: 12833,
