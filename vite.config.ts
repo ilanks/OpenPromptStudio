@@ -26,7 +26,7 @@ let config = {
         assetsInlineLimit: 1024 * 10 /* 10kb */,
         emptyOutDir: true,
         outDir: resolve(__dirname, "dist"),
-        assetsDir: `version/2023-03/`,
+        assetsDir: `apps/ops/version/2023-03/`,
         publicDir: resolve(__dirname, "web/public"),
         rollupOptions: {
             input: {
