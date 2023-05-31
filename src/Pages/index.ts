@@ -6,7 +6,7 @@ export function getRoutes() {
     return [
         {
             path: "/",
-            redirect: "/apps/ops/",
+            redirect: "/",
         },
         {
             path: "/apps/ops/",
