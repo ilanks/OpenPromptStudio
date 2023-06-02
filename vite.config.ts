@@ -11,7 +11,7 @@ dotenv.config()
 // https://vitejs.dev/config/
 let config = {
     root: "./web",
-    base: "/",
+    base: "/apps/ops/",
     server: {
         port: 12833,
         host: "0.0.0.0",
@@ -26,7 +26,7 @@ let config = {
         assetsInlineLimit: 1024 * 10 /* 10kb */,
         emptyOutDir: true,
         outDir: resolve(__dirname, "dist"),
-        assetsDir: `apps/ops/version/2023-03/`,
+        assetsDir: `version/2023-03/`,
         publicDir: resolve(__dirname, "web/public"),
         rollupOptions: {
             input: {
