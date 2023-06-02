@@ -13,7 +13,8 @@ let config = {
     root: "./web",
     base: "/apps/ops/",
     server: {
-        host: "ops.jk.cm",
+        port: 12833,
+        host: "0.0.0.0",
     },
     worker: {
         format: "es",
